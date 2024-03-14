@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contaner{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.navbar nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    align-items: center;
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    padding: 20px;
+}
+nav ul li a:hover{
+    cursor: pointer;
+}
+.nav-icons ul li:hover {
+    cursor: pointer;
+}
+.contant{
+    height: 90vh;
+    width: 100%;
+    background: url(images/bg.png);
+    background-size: cover;
+    background-position: center;
+}
+.contant .text{
+    width: 40%;
+    height: 90vh;
+    margin-left: 150px;
+    position: relative;
+    top: 28%;
+}
+.contant .text p{
+    margin-bottom: 20px;
+}
+.contant .text h2{
+    margin-bottom: 10px;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 70px;
+
+}
+.contant .text .btn{
+    padding: 10px 30px;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: white;
+}
+.contant .text .btn:hover{
+    padding: 10px 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.brands{
+    width: 100%;
+    height: 12vh;
+    background-color: black;
+}
+
+.cards{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.card{
+    width: 240px;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+.cards .card img:hover{
+    filter: grayscale(.1);
+    transform: scale(1.03);
+}
+.card img{
+    width: 240px;
+}
+.cardbody .title-hart{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.cardbody .title-hart i {
+    font-size: 20px;
+}
+.cardbody .information{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.contaner .prodacts h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.information{
+    display: flex;
+    gap: 8px;
+    color: gold;
+    font-size: 13px;
+}
+.by-info {
+    display: flex;
+    justify-content: space-between;
+}
+.by-info .info{
+    display: flex;
+    gap: 10px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.container {
+    margin-top: 30px; 
+    margin-bottom: 60px;
+}
+.butshow{
+    position: relative;
+    left: 50%;
+    width: 100px;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 50px; 
+}
+.butshow:hover{
+    background-color: rgba(234, 229, 229, 0.454);
+}
+
+
+.popup{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pupuoplogin{
+    background-color: white;
+    width: 350px;
+    height: 290px;
+    padding: 20px;
+    position: relative;
+}
+.pupuoplogin .fa-user{
+    margin: 40px;
+    font-size: 50px;
+}
+.login-form input{
+    width: 300px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 10px;
+    border: 1px solid rgb(56, 56, 56);
+    display: block;
+    margin: 10px;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.pupuoplogin .close{
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    top: -18px;
+    left: 383px;
+    cursor: pointer;
+    color: white;
+}
+.logbut{
+    width: 100px;
+    padding: 10px;
+    background-color: rgba(186, 186, 247, 0.72);
+    border-radius: 6px;
+    text-decoration: none;
+}
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+    
+}
+.card-info .card1{
+    display: flex;
+    gap: 14px;
+    width: 300px;
+    height: 100px;
+    padding: 12px;
+    background-color: white;
+    box-shadow: 2px 2px 5px #aaaaaa;
+    position: relative;
+}
+.card-info .card1:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: transform 0.3s;
+}
+.card-info .card1::after{
+    position: absolute;
+    top: 1px;
+    left: -1px;
+    content: '';
+    width: 3px;
+    height: 123px;
+    background-color: rgb(0, 0, 0);
+}
+.card-info .card1 div .te{
+    margin-top: 10px;
+}
+.contaner .Best-Selle{
+    height: 340px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.contaner .Best-Selle .images{
+    margin: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.contaner .prodacts .Best-Selle .images .icons i{
+    display: none;
+    margin: 10px;
+    position: relative;
+    top: -110px;
+    left: 240px;
+}
+.contaner .prodacts .Best-Selle .images:hover .icons i{
+    display: block;
+}
+.contaner .contact{
+    margin: 30px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contaner .contact .sing-information .text{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+.contaner .contact .sing-information  p{
+    color: white;
+}
+.contaner form input{
+    width: 330px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.contaner form .button{
+    margin: 5px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar nav{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    nav ul li{
+    padding: 10px;
+    }
+    .contant .text{
+    margin-left: 20px;
+    top: 30%;
+    }
+    .contant .text p{
+        margin-bottom: 20px;
+    }
+    .contant .text h2{
+        margin-bottom: 10px;
+        font-size: 50px;
+    }
+    .contant .text .btn{
+        padding: 10px 30px;
+        background-color: rgb(0, 0, 0);
+        text-decoration: none;
+        color: white;
+    }
+    .contaner{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .cards{
+        margin-left: 100px;
+    }
+    .butshow{
+        position: relative;
+        left: 50%;
+    }
+    .card-info {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        flex-wrap: wrap;
+    }
+    .card-info .card1{
+        width: 500px;
+        margin: 13px;
+    }
+    .contaner form input{
+        width: 230px;
+        height: 25px;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+    }
+}
